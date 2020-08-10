@@ -1,7 +1,12 @@
 # CNN-Project
 Technion deep learning project in CNNs.
 
-Explaination about the project can be found in Place_recognition.pdf file.
+Introduction:
+
+Link to Original paper:
+https://nikosuenderhauf.github.io/assets/papers/rss15_placeRec.pdf
+
+How to run:
 
 List of packages needed to run the project:
 1) TorchVision 0.1.8
