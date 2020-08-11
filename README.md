@@ -9,7 +9,7 @@ https://nikosuenderhauf.github.io/assets/papers/rss15_placeRec.pdf
 How to run:
 1) In the edgeB file, make sure to change the maximum area of boxes according to what you need. You can also limit the number of boxes that you want to generate.
 2) In matcher file, make sure you receive the model.yml.gz file as an input arg for the program (sys.argv), also change the filesd and filesn variables according to the path of the datasets that you're willing to use for your test (filesd for the dataset that you're willing to iterate over and search for matchable pictures from query images, filesn is for the query images). You can also change the Gaussian random projection parameter in this file. (512/1024/4096...)
-3) run matcher.py after changing the dir path in the filesd and filesn.
+3) Run matcher.py after changing the dir path in the filesd and filesn.
 
 List of packages needed to run the project:
 1) TorchVision 0.1.8
