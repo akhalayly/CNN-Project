@@ -2,10 +2,9 @@
 Technion deep learning project in CNNs.
 
 Introduction:
-An object proposal technique to identify potential landmarks within an image for place recognition. We use the astonishing power of convolutional neural network features to identify matching landmark proposals between images to perform place recognition over extreme appearance and viewpoint variations. We then do some modifications to our module in order to test it's ability and results using only TINY landmarks boxes. The whole code is written using Python.
-
+An object proposal technique to identify potential landmarks within an image for place recognition. We use the astonishing power of convolutional neural network features to identify matching landmark proposals between images to perform place recognition over extreme appearance and viewpoint variations. Our implementation is based on the workflow presented in "Place Recognition with ConvNet Landmarks" article, including small modifications and additional experiments to test the ability to perform place recognition technique using tiny objects/boxes. The whole code is written using python.
 Link to Original paper:
-https://nikosuenderhauf.github.io/assets/papers/rss15_placeRec.pdf
+https://nikosuenderhaPlace Recognition with ConvNet Landmarksuf.github.io/assets/papers/rss15_placeRec.pdf
 
 How to run:
 1) In the edgeB file, make sure to change the maximum area of boxes according to what you need. You can also limit the number of boxes that you want to generate.
